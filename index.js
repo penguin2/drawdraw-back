@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => {    
       res.json({ "paletteColors": ["black", "white", "orange"] });
     });
+    
 app.get("/color", (req, res) => {    
     res.json({ "paletteColors": ["black", "white", "orange"] });
     });
